@@ -9,6 +9,7 @@ import Pricing from './components/Pricing';
 import CallToAction from './components/CallToAction';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
+import CookieConsent from './components/CookieConsent';
 
 function App() {
     const { theme, toggleTheme } = useTheme();
@@ -26,6 +27,7 @@ function App() {
                 <CallToAction />
             </main>
             <Footer />
+            <CookieConsent />
         </div>
     );
 }
